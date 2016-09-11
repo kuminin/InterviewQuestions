@@ -21,7 +21,7 @@ var checkPermutation = function(s1, s2) {
 
     // If the sum is 0, then we know s1 and s2 are permutation of each other.
     // Else then we know that s1 and s2 were not permutations of each other.
-    return sum === 0 ? true : false;
+    return sum === 0;
 };
 
 assert(checkPermutation('abc', 'cab') === true);
